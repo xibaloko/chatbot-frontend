@@ -49,7 +49,7 @@
                             <li class="nav-item"><a class="nav-link" href="#perguntas-frequentes">Perguntas Frequentes</a>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="nav-item"><a href="#" class="primary_btn">Login</a></li>
+                            <li class="nav-item"><button type="button" class="btn primary_btn" data-toggle="modal" data-target="#loginModal">Login</button></li>
                         </ul>
                     </div>
                 </div>
@@ -207,7 +207,7 @@
     </section>
     <!--================ End Frequently Asked Questions Area ================-->
 
-    <!--================Footer Area =================-->
+    <!--================ Footer Area =================-->
     <footer class="footer_area section_gap_top">
         <div class="container">
             <div class="row footer_inner">
@@ -240,7 +240,37 @@
             </div>
         </div>
     </footer>
-    <!--================End Footer Area =================-->
+    <!--================ End Footer Area =================-->
+
+<!--================ Start Modal Area =================-->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header modal-header-color">
+              <h5 class="modal-title lbl-header" id="exampleModalLabel">Login</h5>
+              <button type="button" class="close btn-close-modal" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="input-login" class="col-form-label">Username:</label>
+                  <input type="text" class="form-control" id="input-login">
+                </div>
+                <div class="form-group">
+                  <label for="input-senha" class="col-form-label">Senha:</label>
+                  <input type="text" class="form-control" id="input-senha">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Voltar</button>
+              <button type="button" class="btn btn-dark">Entrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
 </body>
 
 </html>

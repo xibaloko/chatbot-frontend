@@ -3862,8 +3862,23 @@ h6 {
       .single-footer-widget .social_widget a:hover {
         background: #3fcaff; }
 
-/* End Footer Area css
+/* End Footer Area css */
+/* Modal Area css
 ============================================================================================ */
+.modal-header-color{
+  background-color: #342b7e;
+}
+.lbl-header{
+  color: #fff;
+  font-size: 18px;
+}
+.btn-close-modal{
+  color: white;
+  font-size: 25px;
+  opacity: .9;
+  text-shadow: 0 2px 0 black;
+}
+/*============================================================================================ */
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
